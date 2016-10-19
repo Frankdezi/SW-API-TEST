@@ -1,0 +1,71 @@
+.card1, .card2{
+    
+       position: relative;
+  margin-bottom: 10px;
+    margin-top: 10px;
+      padding: 10px;
+    height: 150px;
+   color: white;
+     background-color: #D3CFC6;
+    border-radius: 5px;
+}
+.duck
+{
+    background-color: #357111;
+    height: 100px;
+}
+
+#gaming{
+    padding: 10px;
+    text-align: center;
+    
+}
+#play{
+    padding: 10px;
+   
+    height: 600px;
+}
+.heado{
+    color: white;
+      color: #D5D8DC;
+    font-family:  'Montserrat', sans-serif;
+}
+body{
+    
+    background-color: #142B56;
+}
+.game{
+    
+    margin-bottom: 20px;
+}
+li, span{
+    font-size: 1.5em;
+    list-style: none;
+    padding: 0;
+    color: #282529;
+    font-family: 'Raleway', sans-serif;
+}
+.win{
+    display: none;
+    font-size: 1.5em;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    height: 100px;
+    color: #282529;
+    background-color: #FFA500;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (min-width: 750px){
+    
+    
+    #play{
+        
+        height: 500px;
+    }
+    
+    
+}
