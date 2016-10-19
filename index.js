@@ -14,8 +14,8 @@ window.onload = function () {
      
      
         
-        var firstcard = $.getJSON('http://swapi.co/api/people/' + randomIntFromInterval(1, 87) + '/');
-        var seccard = $.getJSON('http://swapi.co/api/people/' + randomIntFromInterval(1, 87) + '/');
+        var firstcard = $.getJSON('https://swapi.co/api/people/' + randomIntFromInterval(1, 87) + '/');
+        var seccard = $.getJSON('https://swapi.co/api/people/' + randomIntFromInterval(1, 87) + '/');
       
     setTimeout(function(){
     $.when(firstcard, seccard).then(function(card1, card2){
